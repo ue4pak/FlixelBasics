@@ -37,7 +37,7 @@ class PlayState extends SwagState
 		{
 			transitionState(new states.sites.FlxGMusicState());
 		}
-		else if (FlxG.keys.justPressed.THREE)
+		else if (FlxG.keys.justPressed.FOUR)
 		{
 			FlxG.openURL('https://github.com/ue4pak/FlixelBasicsScholarsAdvantage');
 
